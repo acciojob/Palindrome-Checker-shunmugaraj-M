@@ -1,6 +1,7 @@
 // complete the given function
 
 function palindrome(str){
+  str =str.toUpperCase();
   if(str.trim() === ""){
     return true;
   }
